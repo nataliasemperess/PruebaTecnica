@@ -1,1 +1,45 @@
-# PruebaTecnica
+# Prueba Técnica - Natalia Sempere Sánchez
+
+Antes de empezar a programar, se ha analizado qué comportamientos (métodos) y propiedades (atributos) comparten los objetos "Cd" y "DiscoDuro".  
+El objetivo es decidir qué métodos deben ir en las interfaces y cuáles serán específicos de cada clase.
+
+## Clasificación inicial
+
+**Comportamientos comunes (en las interfaces)**
+- "girarDisco()" : Ambos giran, pero giran a diferentes velocidades (láser o cabezal magnético)
+- "escribirDatos()" : Ambos almacenan información, pero mediante métodos distintos.
+- "leerDatos()" : Ambos pueden leer la información almacenada.
+- "reportarInformacion()" : Devuelve un resumen con nombre, capacidad, tipo y contenido.
+
+**Atributos comunes (en las clases)**
+- "nombre" : identificador del disco.
+- "capacidad" : espacio de almacenamiento (MB o GB)
+- "contenido" : texto que representa los datos almacenados.
+- "tipo" : tipo de disco (CD o HDD)
+- "rpm" : velocidad de rotación.
+
+## Justificación del diseño
+
+## Pasos 
+
+### Paso 1. Crear estructura básica y las interfaces 
+
+
+En este primer paso he creado la estructura inicial del proyecto para organizar el código de manera modular y clara. Lo que he hecho ha sido crear una nueva carpeta llamada "src" con el comando por terminal "mkdir src" y he accedido con "cd src". Dentro, he generado los dos primeros archivos: main.cpp y  interfaces.hpp.
+ 
+- **main.cpp** : Será el punto de entrada del programa.
+  Aquí iré incluyendo las pruebas para compilar y ejecutar las distintas clases a medida que las vaya implementando.  
+
+- **interfaces.hpp** : Este archivo define las interfaces base que contienen los comportamientos comunes que deberán implementar las clases.
+  
+Las interfaces se han definido con "struct" en lugar de "class" porque en C++ los "struct" son públicos por defecto, lo cual resulta más adecuado para este caso, ya que queremos que los métodos sean accesibles por las clases que los implementen. 
+
+Por otro lado, los métodos se han declarado como virtuales puros (= 0), lo que significa que las clases que hereden de estas interfaces estarán obligadas a implementarlos. Además, he añadido destructores virtuales para permitir una herencia segura.
+
+Antes de seguir, actualizamos los datos por GitHub.
+
+ ```bash
+git add main.cpp interfaces.hpp
+git commit -m "P1: Creación de la estructura básica e interfaces"
+git push
+```
