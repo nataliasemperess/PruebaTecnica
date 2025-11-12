@@ -42,9 +42,9 @@ git add main.cpp interfaces.hpp
 git commit -m "P1: Creación de la estructura básica e interfaces"
 git push
 ```
-### Paso 2. Implementación de la clase Cd
+### Paso 2. Implementación de la clase "Cd"
 
-En este paso he implementado la clase Cd. ESta clase representa un disco compacto capaz de girar, almacenar datos, leerlos y mostrar información. En esta clase hemos heredado "Rotatorio" y "Almacenamiento".
+En este paso he implementado la clase "Cd". Esta clase representa un disco compacto capaz de girar, almacenar datos, leerlos y mostrar información. En esta clase hemos heredado "Rotatorio" y "Almacenamiento".
 
 **Archivos creados / modificados**
 - Cd.hpp : define los atributos privados y los encabezados de los métodos.
@@ -59,6 +59,27 @@ git commit -m "P2: Implementación clase Cd"
 git push
 git pull // Para ir actualizando el README.md en mi carpeta
 ```
+
+### Paso 3. Implementación de la clase "DiscoDuro"
+
+En este paso he implementado la clase "DiscoDuro". Esta clase representa un disco duro (HDD) capaz de girar, almacenar, leer y reportar información. En esta clase también hemos heredado "Rotatorio" y "Almacenamiento".
+
+**Archivos creados / modificados**
+- DiscoDuro.hpp : define los atributos privados y los encabezados de los métodos.
+- DiscoDuro.cpp : implementación de los métodos definidos en el .hpp.
+- main.cpp : actualizado para instanciar tanto un objeto "Cd" como un objeto "DiscoDuro" y probarlo el funcionamiento.
+
+Actualización de GitHub: 
+
+ ```bash
+git add *
+git commit -m "P3: Implementación clase Disco duro (HDD)"
+git push
+git pull // Para ir actualizando el README.md en mi carpeta
+```
+
+
+
 
 
 
