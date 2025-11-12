@@ -20,6 +20,9 @@ El objetivo es decidir qué métodos deben ir en las interfaces y cuáles serán
 
 ## Justificación del diseño
 
+Para esta prueba técnica he decidido realizar la práctica en **C++**, ya que es un lenguaje con el que me siento más cómodo y que considero adecuado para trabajar con conceptos de programación orientada a objetos como la herencia, la abstracción y modularidad.
+
+Para el diseño de esta práctica también considero importante organizar el código en archivos .hpp y .cpp, ya que separar las declaraciones de las implementaciones facilita la lectura, el mantenimiento y la depuración del proyecto. Además, esta separación mejora la reutilización del código y permite compilar únciamente las partes que cambian.
 
 
 ## Pasos 
