@@ -51,9 +51,9 @@ git push
 En este paso he implementado la clase "Cd". Esta clase representa un disco compacto capaz de girar, almacenar datos, leerlos y mostrar información. En esta clase hemos heredado "Rotatorio" y "Almacenamiento".
 
 **Archivos creados / modificados**
-- Cd.hpp : define los atributos privados y los encabezados de los métodos.
-- Cd.cpp : en este archivo se encuentra la implementación de los métodos definidos en el .hpp.
-- main.cpp : actualizado para instanciar un objeto Cd y probarlo.
+- **Cd.hpp** : define los atributos privados y los encabezados de los métodos.
+- **Cd.cpp** : en este archivo se encuentra la implementación de los métodos definidos en el .hpp.
+- **main.cpp** : actualizado para instanciar un objeto Cd y probarlo.
 
 Actualización de GitHub: 
 
@@ -69,9 +69,9 @@ git pull // Para ir actualizando el README.md en mi carpeta
 En este paso he implementado la clase "DiscoDuro". Esta clase representa un disco duro (HDD) capaz de girar, almacenar, leer y reportar información. En esta clase también hemos heredado "Rotatorio" y "Almacenamiento".
 
 **Archivos creados / modificados**
-- DiscoDuro.hpp : define los atributos privados y los encabezados de los métodos.
-- DiscoDuro.cpp : implementación de los métodos definidos en el .hpp.
-- main.cpp : actualizado para instanciar tanto un objeto "Cd" como un objeto "DiscoDuro" y probarlo el funcionamiento.
+- **DiscoDuro.hpp** : define los atributos privados y los encabezados de los métodos.
+- **DiscoDuro.cpp** : implementación de los métodos definidos en el .hpp.
+- **main.cpp** : actualizado para instanciar tanto un objeto "Cd" como un objeto "DiscoDuro" y probarlo el funcionamiento.
 
 Actualización de GitHub: 
 
