@@ -24,7 +24,7 @@ Para esta prueba técnica he decidido realizar la práctica en **C++**, ya que e
 En el diseño de esta práctica también considero importante organizar el código en archivos .hpp y .cpp, ya que separar las declaraciones de las implementaciones facilita la lectura, el mantenimiento y la depuración del proyecto. Además, esta separación mejora la reutilización del código y permite compilar únicamente las partes que cambian, haciendo el desarrollo más eficiente y claro.
 
 
-## Pasos 
+## Pasos a seguir
 
 ### Paso 1. Crear estructura básica y las interfaces 
 
