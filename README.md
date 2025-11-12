@@ -94,6 +94,12 @@ Este comando lo que hace es compilar el archivo cpp indicado del proyecto y gene
   
 <img width="925" height="205" alt="image" src="https://github.com/user-attachments/assets/5b34f9e0-14c1-4829-9f24-0d6e3788a44e" />
 
+**Archivos finales**
+
+El proyecto completo queda organizado dentro de la carpeta src/ con los siguientes archivos : 
+
+<img width="925" height="205" alt="image" src="https://github.com/user-attachments/assets/ae1a9212-0f8b-42f5-911f-662a9370598e" />
+
 
 
 
