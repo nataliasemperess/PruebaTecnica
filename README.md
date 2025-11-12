@@ -107,6 +107,18 @@ Cada archivo cumple una función específica :
 - DiscoDuro.hpp / DiscoDuro.cpp: implementan la lógica del disco duro.
 - main.cpp: instancia ambos objetos y verifica todos los métodos.
 
+## Bonus
 
+En esta parte se plantea si es posible reutilizar las interfaces y clases desarrolladas para otros objetos similares, en este caso se comenta LP (vinilo), BluRay y Ruedas/Frisbees. 
 
+El modelo creado anteriormente **sí** podría ampliarse para incluir estos otros tipos de discos o elementos giratorios. 
+A continuación se analizan los ejemplos propuestos : 
+
+- **LP** : gira y almacena información (analógica).
+- **BluRay** : gira, pero tiene más capacidad y otro tipo de lectura (láser azul).
+- **Ruedas o frisbees** : giran pero no almacenan datos
+
+Para el caso de **LP y BlueRay**, se podría implementar nuevas clases siguiendo la misma estructura utilizada para el "Cd" y "DiscoDuro", modificando únicamente los mecanismos específicos para cada caso (capacidad y tipo de lectura en este caso). 
+
+Por otro lado, para las **ruedas o frisbees**, no se implementaría la interfaz "Almacenamiento", ya que estos objetos no guardan datos. Por lo tanto, las clases definidas para estos objetos solo heredarían la interfaz "Rotatorio", manteniendo únicamente el comportamiento del giro.
 
