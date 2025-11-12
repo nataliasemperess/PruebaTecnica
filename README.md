@@ -20,6 +20,8 @@ El objetivo es decidir qué métodos deben ir en las interfaces y cuáles serán
 
 ## Justificación del diseño
 
+
+
 ## Pasos 
 
 ### Paso 1. Crear estructura básica y las interfaces 
@@ -121,4 +123,12 @@ A continuación se analizan los ejemplos propuestos :
 Para el caso de **LP y BluRay**, se podría implementar nuevas clases siguiendo la misma estructura utilizada para el "Cd" y "DiscoDuro", modificando únicamente los mecanismos específicos para cada caso (capacidad y tipo de lectura en este caso). 
 
 Por otro lado, para las **ruedas o frisbees**, no se implementaría la interfaz "Almacenamiento", ya que estos objetos no guardan datos. Por lo tanto, las clases definidas para estos objetos solo heredarían la interfaz "Rotatorio", manteniendo únicamente el comportamiento del giro.
+
+## Conclusión final
+
+A lo largo del desarrollo se han implementado con éxito las interfaces "Rotatorio" y "Almacenamiento", y las clases concretas indicadas, que heredan y definen sus propios comportamientos.
+
+El diseño propuesto permite observar cómo, mediante la herencia múltiple y la programación orientada a interfaces, es posible construir sistemas modulares, extensibles y fáciles de mantener.
+Cada clase encapsula su lógica específica, mientras comparte una base común que garantiza coherencia y reutilización del código.
+Además, el modelo diseñado es escalable, permitiendo incoroporar nuevas clases o interfaces sin alterar la arquiteectura existente.
 
