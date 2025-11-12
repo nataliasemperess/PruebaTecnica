@@ -1,4 +1,5 @@
-# Prueba Técnica - Natalia Sempere Sánchez
+# Prueba Técnica - Estancias en prácticas 2025/2026
+**Autora: Natalia Sempere Sánchez**
 
 Antes de empezar a programar, he analizado qué comportamientos (métodos) y propiedades (atributos) comparten los objetos "Cd" y "DiscoDuro". El objetivo es decidir qué métodos deben ir en las interfaces y cuáles serán específicos de cada clase.
 
@@ -61,7 +62,7 @@ Actualización de GitHub:
 git add main.cpp Cd.hpp Cd.cpp
 git commit -m "P2: Implementación clase Cd"
 git push
-git pull // Para ir actualizando el README.md en mi carpeta
+git pull # Para ir actualizando el README.md en mi carpeta
 ```
 
 ### Paso 3. Implementación de la clase "DiscoDuro"
@@ -79,7 +80,7 @@ Actualización de GitHub:
 git add *
 git commit -m "P3: Implementación clase Disco duro (HDD)"
 git push
-git pull // Para ir actualizando el README.md en mi carpeta
+git pull 
 ```
 
 ### Paso 4. Verificación final
@@ -120,9 +121,9 @@ A continuación se analizan los ejemplos propuestos :
 
 - **LP** : gira y almacena información (analógica).
 - **BluRay** : gira, pero tiene más capacidad y otro tipo de lectura (láser azul).
-- **Ruedas o frisbees** : giran, pero no almacenan datos
+- **Ruedas o frisbees** : giran, pero no almacenan información
 
-Para el caso de **LP y BluRay**, se podría implementar nuevas clases siguiendo la misma estructura utilizada para el "Cd" y "DiscoDuro", modificando únicamente los mecanismos específicos para cada caso (capacidad y tipo de lectura en este caso). 
+En el caso de **LP y BluRay**, se podría implementar nuevas clases siguiendo la misma estructura utilizada para el "Cd" y "DiscoDuro", modificando únicamente los mecanismos específicos para cada caso (capacidad y tipo de lectura en este caso). 
 
 Por otro lado, para las **ruedas o frisbees**, no se implementaría la interfaz "Almacenamiento", ya que estos objetos no guardan datos. Por lo tanto, las clases definidas para estos objetos solo heredarían la interfaz "Rotatorio", manteniendo únicamente el comportamiento del giro.
 
@@ -133,4 +134,6 @@ A lo largo del desarrollo se han implementado con éxito las interfaces "Rotator
 El diseño propuesto permite observar cómo, mediante la herencia múltiple y la programación orientada a interfaces, es posible construir sistemas modulares, extensibles y fáciles de mantener.
 Cada clase encapsula su lógica específica, mientras comparte una base común que garantiza coherencia y reutilización del código.
 Además, el modelo diseñado es escalable, permitiendo incoroporar nuevas clases o interfaces sin alterar la arquiteectura existente.
+
+En definitiva, el proyecto demuestra la aplicación práctica de los principios de diseño orientado a objetos, con un enfoque limpio, modular y fácilmente extensible.
 
