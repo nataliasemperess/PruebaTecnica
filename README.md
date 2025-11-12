@@ -78,9 +78,19 @@ git push
 git pull // Para ir actualizando el README.md en mi carpeta
 ```
 
+### Paso 4. Verificación final
 
+Durante toda la práctica he utilizado el siguiente comando para compilar y ejecutar el programa:
 
+ ```bash
+g++ -std=c++17 -Wall -Wextra main.cpp -o prueba
+./prueba
+```
+Este comando lo que hace es compilar el archivo cpp indicado del proyecto y genera un ejecutable llamado prueba. Además en este comando he incluido:
 
+- std=c++17 : para especificar que estoy utilizando el estándar de C++17 (y así poder usar std::move sin problemas)
+- -Wall : para activar los warning básicos y que me ayude a detectar errores
+- -Wextra : para mostrar advertencias adicionales
 
 
 
