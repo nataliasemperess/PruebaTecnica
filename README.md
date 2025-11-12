@@ -57,6 +57,7 @@ Actualización de GitHub:
 git add main.cpp Cd.hpp Cd.cpp
 git commit -m "P2: Implementación clase Cd"
 git push
+git pull // Para ir actualizando el README.md en mi carpeta
 ```
 
 
